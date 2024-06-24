@@ -97,16 +97,16 @@ function initBotConversation() {
         userAvatarImage: false,
         // userAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         hideSendBox: false, /* set to true to hide the send box from the view */
-        botAvatarInitials: 'Bot',
-        userAvatarInitials: 'You',
+        botAvatarInitials: '',
+        // userAvatarInitials: 'You',
         backgroundColor: '#ffffff',
-        botAvatarBackgroundColor: "#8AB4C7",
+        botAvatarBackgroundColor: "#CAE8FF",
 
         bubbleBackground: '#B8D2FF',
         bubbleBorderColor: '#f4f4f4',
         bubbleBorderRadius: 8,
 
-        bubbleFromUserBackground: '#B8D2FF',
+        bubbleFromUserBackground: '#CAE8FF',
         bubbleFromUserBorderColor: '#f4f4f4',
         bubbleFromUserBorderRadius: 8
     };

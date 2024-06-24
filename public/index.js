@@ -91,13 +91,13 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_b.png?1719236709519',
+        botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_w.png?1719237181159',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
         botAvatarInitials: 'Bot',
-        userAvatarInitials: 'You',
-        backgroundColor: '#F8F8F8'
+        userAvatarInitials: 'You'
+        //backgroundColor: '#F8F8F8'
     };
 
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {

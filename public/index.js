@@ -96,8 +96,8 @@ function initBotConversation() {
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */
         botAvatarInitials: 'Bot',
-        userAvatarInitials: 'You'
-        //backgroundColor: '#F8F8F8'
+        userAvatarInitials: 'You',
+        backgroundColor: '#8AB4C7'
     };
 
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {
@@ -150,7 +150,8 @@ function initBotConversation() {
         store: store,
         userID: user.id,
         username: user.name,
-        locale: user.locale
+        locale: user.locale,
+        dir: 'auto'
     };
     startChat(user, webchatOptions);
 }

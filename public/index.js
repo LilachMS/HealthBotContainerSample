@@ -162,7 +162,7 @@ function initBotConversation() {
         userID: user.id,
         username: user.name,
         locale: user.locale,
-        dir: 'auto'
+        dir: 'rtl'
     };
     startChat(user, webchatOptions);
 }

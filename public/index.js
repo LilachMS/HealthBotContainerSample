@@ -102,11 +102,11 @@ function initBotConversation() {
         backgroundColor: '#ffffff',
         botAvatarBackgroundColor: "#CAE8FF",
 
-        bubbleBackground: '#B8D2FF',
+        bubbleBackground: '#C6E4FF',
         bubbleBorderColor: '#f4f4f4',
         bubbleBorderRadius: 8,
 
-        bubbleFromUserBackground: '#CAE8FF',
+        bubbleFromUserBackground: '#C6E4FF',
         bubbleFromUserBorderColor: '#f4f4f4',
         bubbleFromUserBorderRadius: 8
     };

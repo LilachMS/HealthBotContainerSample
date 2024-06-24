@@ -97,18 +97,18 @@ function initBotConversation() {
         // userAvatarImage: false,
         userAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         hideSendBox: false, /* set to true to hide the send box from the view */
-        // botAvatarInitials: 'Bot',
-        // userAvatarInitials: 'You',
+        botAvatarInitials: 'Bot',
+        userAvatarInitials: 'You',
         backgroundColor: '#ffffff',
         botAvatarBackgroundColor: "#8AB4C7",
 
-        bubbleBackground: '#cde6eb',
+        bubbleBackground: '#B8D2FF',
         bubbleBorderColor: '#f4f4f4',
-        bubbleBorderRadius: 4,
+        bubbleBorderRadius: 8,
 
-        bubbleFromUserBackground: '#cde6eb',
+        bubbleFromUserBackground: '#B8D2FF',
         bubbleFromUserBorderColor: '#f4f4f4',
-        bubbleFromUserBorderRadius: 4
+        bubbleFromUserBorderRadius: 8
     };
 
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {

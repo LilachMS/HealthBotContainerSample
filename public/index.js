@@ -1,4 +1,4 @@
-const defaultLocale = 'en-US';
+const defaultLocale = 'he-il';
 
 function requestChatBot(loc) {
     const params = new URLSearchParams(location.search);
@@ -91,7 +91,7 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
+        botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_b.png?1719236709519',
         // botAvatarInitials: '',
         // userAvatarImage: '',
         hideSendBox: false, /* set to true to hide the send box from the view */

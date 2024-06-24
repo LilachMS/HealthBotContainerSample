@@ -94,7 +94,8 @@ function initBotConversation() {
         botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_b.png?1719238089031',
         // botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         // botAvatarInitials: '',
-        userAvatarImage: false,
+        // userAvatarImage: false,
+        userAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         hideSendBox: false, /* set to true to hide the send box from the view */
         // botAvatarInitials: 'Bot',
         // userAvatarInitials: 'You',

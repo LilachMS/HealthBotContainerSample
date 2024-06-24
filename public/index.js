@@ -91,13 +91,23 @@ function initBotConversation() {
         domain: domain
     });
     const styleOptions = {
-        botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_w.png?1719237181159',
+        botAvatarImage: 'https://hbstenant2steausprod.blob.core.windows.net/demo-for-il-healthcare-event-qnhsw3f-public/resources/image_b.png?1719238089031',
+        // botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
         // botAvatarInitials: '',
-        userAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg?view=azure-bot-service-4.0',
+        userAvatarImage: false,
         hideSendBox: false, /* set to true to hide the send box from the view */
-        botAvatarInitials: 'Bot',
-        userAvatarInitials: 'You',
-        backgroundColor: '#8AB4C7'
+        // botAvatarInitials: 'Bot',
+        // userAvatarInitials: 'You',
+        backgroundColor: '#ffffff',
+        botAvatarBackgroundColor: "#8AB4C7",
+
+        bubbleBackground: '#f4f4f4',
+        bubbleBorderColor: '#f4f4f4',
+        bubbleBorderRadius: 4,
+
+        bubbleFromUserBackground: '#cde6eb',
+        bubbleFromUserBorderColor: '#f4f4f4',
+        bubbleFromUserBorderRadius: 4
     };
 
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {
